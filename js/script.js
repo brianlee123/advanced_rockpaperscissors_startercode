@@ -14,17 +14,25 @@
         // Display the user winner to the output screen 
         // Clear the input box for the next choice
 
-// *************************** YOUR CODE BELOW *******************************
-//******************TEST EARLY AND OFTEN USING console.log() ******************
-//****************** SERIOUSLY TEST USING console.log()!!! ******************
+
 
 //GLOBAL VARIABLES
-
-
+var userChoice;
+var computerChoice;
+var winner;
 
 //FUNCTIONS
+$(document).ready(function() {
 
 
 
-// DOCUMENT READY FUNCTION
+                $("button").click(function() { 
+                   userChoice = $("input").val();
+                        console.log(userChoice);
 
+
+                });
+                // DOCUMENT READY FUNCTION
+
+        
+});
